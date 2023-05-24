@@ -296,6 +296,15 @@
       <br>
       <br>
       <h3 class="title is-3">Novel view synthesis </h2>
+        <h3 class="title is-4">NeRF results</h3>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img src="./static/images/nvs.png" alt="Description of the image">
+            <p>
+              Novel view synthesis with four different styles.
+            </p>
+          </div>
+        </div>  
     </div>
 
       <section class="hero is-light is-small">
@@ -332,7 +341,24 @@
         </div>
       </section>
       <div class="container is-max-desktop">
-
+        <h3 class="title is-4">Comparison </h3>
+        <p>
+          We demonstrate the strength of our technique by estimating poses and acquiring radiance fields directly from stylized images. 
+          What sets our approach apart from others is its ability to stylize images that can be utilized directly for radiance field computation. 
+          To ensure a fair comparison, our novel views were generated from a viewpoint chosen as the default camera trajectory by the ARF author. 
+          To eliminate view dependency and promote color consistency, ARF depending on underlying NeRF method
+          either constrains all spherical harmonics components except the first, or zeroes the view directions when passing them to the rendering MLP. 
+          In contrast, our method is capable of generating durable radiance fields without any limitations.       
+        </p>
+        <div class="columns is-centered">
+          <div class="column content">
+            <img src="./static/images/nvs_comparison.jpg" alt="Description of the image">
+            <p>
+              Novel-view synthesis comparison with ARF on two scenes.
+              For each scene, the top row shows the result of ARF, and the bottom row shows the radiance fields directly computed from our stylized images.
+           </p>
+          </div>
+        </div>
         <div class="columns is-centered">
           <div class="column content">
               <h2 class="title is-3">ARF</h2>
