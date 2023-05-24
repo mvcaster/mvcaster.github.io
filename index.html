@@ -272,6 +272,27 @@
           </p>
         </div>
       </div>
+      <h3 class="title is-4">Mesh editing</h3>
+      <div class="columns is-centered">
+        <div class="column content">
+          <img src="./static/images/mesh_editing.png" alt="Description of the image">
+          <p>
+            Mesh editing effect. The reconstructed mesh demonstrates stripe-like geometric features.
+          </p>
+        </div>
+      </div>
+      <h3 class="title is-4">Mesh coloring</h3>
+      <div class="columns is-centered">
+        <div class="column content">
+          <img src="./static/images/mesh_coloring.png" alt="Description of the image">
+          <p>
+            Mesh surface coloring (Geometry + Coloring). Meshes (a) and (b) have the same geometric properties but differ
+            in their coloring. Specifically, (a) and (c) are colored using 64 original input images, while (b) and (d) are colored using the
+            stylized images. The geometry of (a) and (b) is derived from the original inputs, while the geometry of (c) and (d) is learned
+            from the stylized images.
+          </p>
+        </div>
+      </div>
       <br>
       <br>
       <h3 class="title is-3">Novel view synthesis </h2>
@@ -296,6 +317,11 @@
                   <source src="./static/videos/truck_v2.mp4" type="video/mp4">
                 </video>
               </div>
+              <div class="item item-sculp_lady">
+                <video poster="" id="sculp_lady" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/lady_sculp.mp4" type="video/mp4">
+                </video>
+              </div>
               <div class="item item-playground">
                 <video poster="" id="playground" autoplay controls muted loop playsinline height="100%">
                   <source src="./static/videos/playground.mp4" type="video/mp4">
@@ -307,32 +333,38 @@
       </section>
       <div class="container is-max-desktop">
 
-      <div class="columns is-centered">
-        <div class="column">
-          <div class="content">
-            <h2 class="title is-3">ARF</h2>
-            <p>
-              ARF lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-            </p>
-            <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/dollyzoom-stacked.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div class="column">
-          <h2 class="title is-3">Ours</h2>
+        <div class="columns is-centered">
           <div class="column content">
-            <p>
-              Our lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4" type="video/mp4">
-            </video>
+              <h2 class="title is-3">ARF</h2>
+              <p>
+                ARF lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+              </p>
+              <video id="ARF_playground" autoplay controls muted loop playsinline height="400px">
+                <source src="./static/videos/ARF_playground.mov" type="video/mp4">
+              </video>
+              <br>
+              <video id="ARF_family" autoplay controls muted loop playsinline height="400px">
+                <source src="./static/videos/ARF_family.mov" type="video/mp4">
+              </video>
+            </div>
+          
+            <div class="column content">
+              <h2 class="title is-3">Ours</h2>
+              <p>
+                Our lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+              </p>
+                <video id="OUR_playground" autoplay controls muted loop playsinline height="400px">
+                  <source src="./static/videos/our_playground.mov" type="video/mp4">
+                </video>
+                <video id="OUR_family" autoplay controls muted loop playsinline height="400px">
+                  <source src="./static/videos/our_family.mov" type="video/mp4">
+                </video>
           </div>
         </div>
-      </div>
-
+        <script>
+          document.getElementById('OUR_family').playbackRate = 0.59; // Slows down the OUR video by half
+          document.getElementById('OUR_playground').playbackRate = 0.59; // Slows down the OUR video by half
+        </script>
       <div class="columns is-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Related Links</h2>
