@@ -26,6 +26,72 @@ body {
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
+.cyan-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(171, 100%, 41%), 2px 2px hsl(171, 100%, 41%), 3px 3px hsl(171, 100%, 41%), 4px 4px hsl(171, 100%, 41%), 5px 5px hsl(171, 100%, 41%), 6px 6px hsl(171, 100%, 41%), 7px 7px hsl(171, 100%, 41%);
+}
+.cyan-small-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(171, 100%, 41%), 2px 2px hsl(171, 100%, 41%), 3px 3px hsl(171, 100%, 41%);
+}
+
+.purple-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(271, 100%, 41%), 2px 2px hsl(271, 100%, 41%), 3px 3px hsl(271, 100%, 41%), 4px 4px hsl(271, 100%, 41%), 5px 5px hsl(271, 100%, 41%), 6px 6px hsl(271, 100%, 41%), 7px 7px hsl(271, 100%, 41%);
+}
+
+.purple-small-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(271, 100%, 41%), 2px 2px hsl(271, 100%, 41%), 3px 3px hsl(271, 100%, 41%);
+}
+
+.pink-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(320, 100%, 41%), 2px 2px hsl(320, 100%, 41%), 3px 3px hsl(320, 100%, 41%), 4px 4px hsl(320, 100%, 41%), 5px 5px hsl(320, 100%, 41%), 6px 6px hsl(320, 100%, 41%), 7px 7px hsl(320, 100%, 41%);
+}
+
+.pink-small-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(320, 100%, 41%), 2px 2px hsl(320, 100%, 41%), 3px 3px hsl(320, 100%, 41%);
+}
+.orange-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(30, 100%, 50%), 2px 2px hsl(30, 100%, 50%), 3px 3px hsl(30, 100%, 50%), 4px 4px hsl(30, 100%, 50%), 5px 5px hsl(30, 100%, 50%), 6px 6px hsl(30, 100%, 50%), 7px 7px hsl(30, 100%, 50%);
+}
+.orange-small-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 1px 1px hsl(30, 100%, 50%), 2px 2px hsl(30, 100%, 50%), 3px 3px hsl(30, 100%, 50%);
+}
+.multicolor-shadow {
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 
+      1px 1px hsl(0, 100%, 50%),
+      2px 2px hsl(60, 100%, 50%),
+      3px 3px hsl(120, 100%, 50%),
+      4px 4px hsl(180, 100%, 50%),
+      5px 5px hsl(240, 100%, 50%),
+      6px 6px hsl(300, 100%, 50%),
+      7px 7px hsl(360, 100%, 50%);
+}
+
 
 
 .publication-title {
